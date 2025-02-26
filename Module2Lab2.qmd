@@ -1,0 +1,50 @@
+---
+title: "Job Postings Data Analysis"
+author: "Your Name"
+format: html
+execute:
+  echo: true
+---
+
+```{python}
+import pandas as pd
+import matplotlib.pyplot as plt  # Importing for plotting
+
+# Load dataset
+df = pd.read_csv("/Users/arohittalari/Desktop/lightcast_job_postings.csv")
+print(df.info())
+print(df.head())
+
+# Data Cleaning
+df['SALARY_FROM'].fillna(df['SALARY_FROM'].median(), inplace=True)
+df['SALARY_TO'].fillna(df['SALARY_TO'].median(), inplace=True)
+df['AVERAGE_SALARY'] = (df['SALARY_FROM'] + df['SALARY_TO']) / 2
+df.dropna(inplace=True)
+
+# 1. Count Total Job Postings
+total_postings = df.shape[0]
+print(f"Total Job Postings: {total_postings}")
+
+# 2. Find Top 5 Job Titles
+top_job_titles_clean = df['TITLE_CLEAN'].value_counts().head(5)
+print("Top 5 Job Titles:")
+print(top_job_titles_clean)
+
+# 3. Calculate Average Salary by Job Type
+avg_salary_by_job_title = df.groupby('TITLE_CLEAN')['AVERAGE_SALARY'].mean()
+avg_salary_by_job_title = avg_salary_by_job_title.dropna()
+top_10_avg_salary = avg_salary_by_job_title.sort_values(ascending=False).head(10)
+
+# Plot the top 10 job titles by average salary
+top_10_avg_salary.plot(kind='bar', figsize=(10, 5))
+plt.xlabel('Job Title')
+plt.ylabel('Average Salary')
+plt.title('Top 10 Job Titles by Average Salary')
+plt.xticks(rotation=45, ha='right')  # Rotate labels for better readability
+plt.show()
+
+# 4. Find the State with the Most Job Postings
+state_with_most_postings = df['STATE'].value_counts().idxmax()
+print(f"The state with the most job postings is: {state_with_most_postings}")
+
+
