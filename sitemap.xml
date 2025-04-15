@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://arohittalari.github.io/about.html</loc>
-    <lastmod>2025-04-15T17:15:24.485Z</lastmod>
+    <loc>https://arohittalari.github.io/projects.html</loc>
+    <lastmod>2025-04-15T20:52:31.434Z</lastmod>
   </url>
   <url>
-    <loc>https://arohittalari.github.io/Module2Lab2.html</loc>
-    <lastmod>2025-04-15T17:15:24.478Z</lastmod>
+    <loc>https://arohittalari.github.io/cv.html</loc>
+    <lastmod>2025-04-15T20:52:31.423Z</lastmod>
   </url>
   <url>
     <loc>https://arohittalari.github.io/index.html</loc>
-    <lastmod>2025-04-15T17:15:24.486Z</lastmod>
+    <lastmod>2025-04-15T20:52:31.429Z</lastmod>
+  </url>
+  <url>
+    <loc>https://arohittalari.github.io/about.html</loc>
+    <lastmod>2025-04-15T20:52:31.423Z</lastmod>
+  </url>
+  <url>
+    <loc>https://arohittalari.github.io/contact.html</loc>
+    <lastmod>2025-04-15T20:52:31.423Z</lastmod>
   </url>
 </urlset>
