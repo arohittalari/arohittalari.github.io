@@ -1,16 +1,23 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome To My Website",
-    "section": "",
-    "text": "Hello, World! Welcome to my Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
     "text": "About this site"
+  },
+  {
+    "objectID": "Module2Lab2.html",
+    "href": "Module2Lab2.html",
+    "title": "Job Postings Data Analysis",
+    "section": "",
+    "text": "import pandas as pd import matplotlib.pyplot as plt # Importing for plotting\n\nLoad dataset\ndf = pd.read_csv(“/Users/arohittalari/Desktop/lightcast_job_postings.csv”) print(df.info()) print(df.head())\n\n\nData Cleaning\ndf[‘SALARY_FROM’].fillna(df[‘SALARY_FROM’].median(), inplace=True) df[‘SALARY_TO’].fillna(df[‘SALARY_TO’].median(), inplace=True) df[‘AVERAGE_SALARY’] = (df[‘SALARY_FROM’] + df[‘SALARY_TO’]) / 2 df.dropna(inplace=True)\n\n\n1. Count Total Job Postings\ntotal_postings = df.shape[0] print(f”Total Job Postings: {total_postings}“)\n\n\n2. Find Top 5 Job Titles\ntop_job_titles_clean = df[‘TITLE_CLEAN’].value_counts().head(5) print(“Top 5 Job Titles:”) print(top_job_titles_clean)\n\n\n3. Calculate Average Salary by Job Type\navg_salary_by_job_title = df.groupby(‘TITLE_CLEAN’)[‘AVERAGE_SALARY’].mean() avg_salary_by_job_title = avg_salary_by_job_title.dropna() top_10_avg_salary = avg_salary_by_job_title.sort_values(ascending=False).head(10)\n\n\nPlot the top 10 job titles by average salary\ntop_10_avg_salary.plot(kind=‘bar’, figsize=(10, 5)) plt.xlabel(‘Job Title’) plt.ylabel(‘Average Salary’) plt.title(‘Top 10 Job Titles by Average Salary’) plt.xticks(rotation=45, ha=‘right’) # Rotate labels for better readability plt.show()\n\n\n4. Find the State with the Most Job Postings\nstate_with_most_postings = df[‘STATE’].value_counts().idxmax() print(f”The state with the most job postings is: {state_with_most_postings}“)"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome To My Website",
+    "section": "",
+    "text": "Hello, World! Welcome to my Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
   }
 ]
