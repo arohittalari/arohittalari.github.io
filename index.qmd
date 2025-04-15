@@ -1,16 +1,20 @@
-
 ---
-title: "Welcome To My Website"
-author: "Arohit Talari"
-date: "2025-02-10"
-format:
-  html:
-    theme: journal
-    toc: true 
+title: "Arohit Talari"
+format: html
 ---
 
-Hello, World!
-Welcome to my Quarto website.
+🏀 Celtics Fan | 🎨 Fashion & Design | 📸 Photography | 🎵 R&B | ✈️ Travel | 🐾 Boston (My Goldendoodle!)
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+I'm a graduate student in Applied Business Analytics at Boston University with a background in Finance. This semester, I’ve explored everything from marketing analytics and enterprise risk to data mining and web analytics—developing a toolkit that blends technical depth with business intuition.
+
+When I’m not modeling trends or debugging dashboards, I’m probably sketching fashion designs, watching Boston sports (die hard fan here!), or exploring nature with my best friend, Boston the Goldendoodle!
+
+- 💻 [Visit My GitHub](https://github.com/arohittalari)  
+
+---
+
+<div style="text-align: center; margin-top: 2em;">
+  <img src="prudential-tower.jpeg" alt="Boston Skyline" width="80%" style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);" />
+</div>
+
 

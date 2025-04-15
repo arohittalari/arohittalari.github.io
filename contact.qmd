@@ -1,0 +1,24 @@
+---
+title: "Contact"
+format: html
+---
+
+## 📬 Let's Connect!
+
+Whether you're reaching out about an opportunity, want to collaborate on a data project, or just want to talk sports, I'd love to hear from you!
+
+---
+
+### 📧 Email  
+[arohittalari@gmail.com](mailto:arohittalari@gmail.com)
+
+### 💼 LinkedIn  
+[linkedin.com/in/arohittalari](https://www.linkedin.com/in/arohittalari)
+
+### 💻 GitHub  
+[github.com/arohittalari](https://github.com/arohittalari)
+
+---
+
+Feel free to reach out — I'm always open to learning, collaborating, or chatting over coffee (or Celtics trade rumors).
+

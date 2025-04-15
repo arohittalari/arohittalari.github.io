@@ -1,0 +1,16 @@
+---
+title: "Curriculum Vitae"
+format: html
+---
+
+## 📄 Arohit Talari's Resume 
+
+<div style="text-align: center; margin-bottom: 1em;">
+  <iframe src="Resume.pdf" width="100%" height="600px" style="border: 1px solid #ccc;"></iframe>
+</div>
+
+<p style="text-align: center;">
+   <a href="Resume.pdf" target="_blank" download>Click here to download a copy</a>
+</p>
+
+

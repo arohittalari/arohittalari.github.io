@@ -1,5 +1,31 @@
 ---
-title: "About"
+title: "About Me"
+format: html
 ---
 
-About this site
+<div style="text-align: center; margin-bottom: 1em;">
+  <img src="about-me-photo.jpeg" width="200px" style="border-radius: 12px; margin-bottom: 1em;" />
+</div>
+
+I'm currently pursuing my M.S. in Applied Business Analytics at Boston University, where I’ve explored everything from marketing analytics and enterprise risk to data mining and web analytics.
+
+Previously, at Arizona State University, I built a strong foundation in finance through analyzing company financial statements and applying financial modeling techniques to support investment decisions.
+
+## Education
+- M.S. Applied Business Analytics, Boston University (Expected 2025)
+- B.S. Finance, Arizona State University
+
+## Skills
+
+**Languages & Tools:**  
+Python, R, SQL, Tableau, Excel, Git, Quarto, LaTeX
+
+**Libraries/Frameworks:**  
+tidyverse, dplyr, ggplot2, caret, e1071, arules, statsmodels, scikit-learn, pandas, matplotlib, NumPy, forecast, lubridate, pmdarima
+
+**Soft Skills:**  
+Analytical storytelling, client communication, structured problem solving, cross-functional collaboration, and project management under pressure
+
+## Professional Interests
+Simulation modeling for sports strategy and investment forecasting, financial analytics, AI’s expanding role in finance and consulting, and solving real-world business challenges through strategy-driven consulting.
+

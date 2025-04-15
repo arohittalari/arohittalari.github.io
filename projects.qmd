@@ -1,0 +1,49 @@
+---
+title: "Projects"
+format: html
+---
+
+## 🏥 Project #1 - Laralex Hospital Case Study  
+**Type:** Healthcare Operations | Quality Management  
+**Tools Used:** P Charts, Shewhart Rules, Confidence Intervals  
+
+**Overview:**  
+Conducted a hospital-wide performance review using statistical process control methods. Assessed metrics such as hospital-acquired infections, ED departures, and cesarean section rates against industry benchmarks. Applied Shewhart Rules and P Charts to distinguish between random variation and true process instability.  
+
+**Impact:**  
+Identified unstable processes and proposed targeted interventions aligned with Joint Commission accreditation standards. Recommended culture change, union engagement, and statistical training to support Lean Six Sigma implementation.  
+
+<iframe src="laralex-hospital-case.pdf" width="100%" height="600px" style="border: 1px solid #ccc; border-radius: 10px; margin-bottom: 2em;"></iframe>
+
+---
+
+## 🏙️ Project #2 - East New York Real Estate Investment Strategy  
+**Type:** Location Optimization | Real Estate Analytics  
+**Tools Used:** ETS Modeling, Regression, Cluster Analysis, Optimization Modeling  
+
+**Overview:**  
+Performed in-depth market analysis to support the opening of a new brokerage office in East New York — a high-risk, high-reward neighborhood. Built ETS time series and regression models to forecast quarterly sales volume and identify seasonal trends.  
+
+**Impact:**  
+Recommended a lean launch strategy (1 employee, 4% commission) based on a prescriptive optimization model that projected an NPV of $3.75B. Delivered insights on volatility, property trends, and market segmentation to drive profitable location decisions.  
+
+<iframe src="east-ny-real-estate.pdf" width="100%" height="600px" style="border: 1px solid #ccc; border-radius: 10px;"></iframe>
+
+---
+
+---
+
+## 💻 Project #3 - IMD Help Desk Optimization  
+**Type:** Operations Strategy | Queuing Theory  
+**Tools Used:** M/M/s Queuing Model, Scenario Simulation, Arrival & Service Rate Modeling  
+
+**Overview:**  
+Partnered on an operations strategy case study to assess two help desk configurations: a segmented system (by issue type) vs. a unified support model. Used queuing theory and simulation modeling to evaluate system efficiency across varying timeframes and customer inflow scenarios.  
+
+**Impact:**  
+Determined optimal server configurations based on tradeoffs between average wait times, queue lengths, and resource efficiency. Recommended a hybrid queuing structure calibrated to manage weekly demand fluctuations while minimizing idle time and maintaining service quality.  
+
+<iframe src="imd-help-desk-case.pdf" width="100%" height="600px" style="border: 1px solid #ccc; border-radius: 10px; margin-bottom: 1em;"></iframe>
+
+<iframe src="imd-help-desk-math.pdf" width="100%" height="600px" style="border: 1px solid #ccc; border-radius: 10px;"></iframe>
+
