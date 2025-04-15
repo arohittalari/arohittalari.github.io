@@ -1,2 +1,3 @@
 # arohittalari.github.io
-This is my public portfolio 
+
+Welcome to my personal website! This site showcases my background, skills, and selected projects developed during my M.S. in Applied Business Analytics at Boston University.
